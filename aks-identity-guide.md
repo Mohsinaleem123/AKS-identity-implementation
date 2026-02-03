@@ -110,8 +110,13 @@ metadata:
 ### Step 5 --- Update Pod Spec
 
 ``` yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    azure.workload.identity/use: "true"
 spec:
-  serviceAccountName: <sa-name>
+  serviceAccountName: my-sa
 ```
 
 ------------------------------------------------------------------------
