@@ -419,22 +419,4 @@ SuperSecretPassword123
 
 ---
 
-## 16. What You Learned
-
-✔ Terraform AKS provisioning
-✔ Managed Identity security
-✔ Azure Key Vault secret storage
-✔ Zero‑secret Kubernetes deployments
-✔ Production‑grade secret management
-
----
-
-## 17. Next Steps (Recommended)
-
-- Sync secrets to Kubernetes `Secret`
-- Use User‑Assigned Managed Identity
-- Add RBAC instead of access policies
-- CI/CD with GitHub Actions
-- Rotate secrets automatically
-
 ---
